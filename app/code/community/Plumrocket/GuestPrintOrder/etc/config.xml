@@ -3,7 +3,7 @@
 	<modules>
 		<Plumrocket_GuestPrintOrder>
 			<wiki>http://wiki.plumrocket.com/wiki/Magento_Print_Order_Confirmation_as_Guest_v1.x_Extension</wiki>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 		</Plumrocket_GuestPrintOrder>
 	</modules>
 	 <frontend>

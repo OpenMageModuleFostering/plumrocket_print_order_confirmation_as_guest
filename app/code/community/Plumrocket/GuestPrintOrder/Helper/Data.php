@@ -16,13 +16,11 @@
  */
 
 
-class Plumrocket_GuestPrintOrder_Helper_Data extends Mage_Core_Helper_Abstract
+class Plumrocket_GuestPrintOrder_Helper_Data extends Plumrocket_GuestPrintOrder_Helper_Main
 {
-	
-	public function moduleEnabled()
-	{
-		return (bool)Mage::getStoreConfig('guestprintorder/general/enable');
-	}
-	
+   public function moduleEnabled($store = null)
+   {
+      return (bool)Mage::getStoreConfig('guestprintorder/general/enable', $store);
+   }
 }
-	 
+
