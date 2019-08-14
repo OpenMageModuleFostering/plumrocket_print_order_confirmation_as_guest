@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Plumrocket_Print_Order_Confirmation_As_Guest</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license uri="http://wiki.plumrocket.net/wiki/EULA">End-user License Agreement</license>
     <channel>community</channel>
     <extends/>
     <summary>The functionality of Print order confirmation receipt as guest allows your unregistered visitors to print orders on order confirmation page.</summary>
     <description>The functionality of Print order confirmation receipt as guest allows your unregistered visitors to print orders on order confirmation page. It is a totally free, open source extension that was created to attract more visitors to your store, encourage purchases and increase customers&#x2019; loyalty. This magento print order plugin is a great way to open the door to your magento site for new customers.</description>
-    <notes>Improved integration with other Plumrocket Extensions</notes>
+    <notes>Fix fatal error</notes>
     <authors><author><name>Plumrocket Team</name><user>plumrocket</user><email>support@plumrocket.com</email></author></authors>
-    <date>2015-02-11</date>
-    <time>10:01:04</time>
-    <contents><target name="magecommunity"><dir name="Plumrocket"><dir name="GuestPrintOrder"><dir name="Block"><dir name="System"><dir name="Config"><file name="Version.php" hash="92a57dad28ed8a63a5138520c1e58c31"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="68bdfff1318c346ec4b8073e650f6161"/><file name="Main.php" hash="556b2ea6f709f8bfe44921e4f4dc4202"/></dir><dir name="controllers"><dir name="Sales"><file name="OrderController.php" hash="be0f5164add10ff526fac66a6b0411aa"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="1c279d13b996c4d4ea4bd727ae79cb4d"/><file name="config.xml" hash="46fd9a68b3a140bab3d3eed42bab8bcd"/><file name="system.xml" hash="1f8333447c950198f67da7f3ebd5d151"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Plumrocket_GuestPrintOrder.xml" hash="44fce954adec94f49ba9e755b16fd084"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="guestprintorder"><dir name="checkout"><file name="success.phtml" hash="265da8a33fbcba882adc08d8000acd0a"/></dir></dir></dir><dir name="layout"><file name="guestprintorder.xml" hash="eb1888e63fc96c71be97c160e09c14f4"/></dir></dir></dir></dir></target></contents>
+    <date>2015-03-18</date>
+    <time>09:53:04</time>
+    <contents><target name="magecommunity"><dir name="Plumrocket"><dir name="GuestPrintOrder"><dir name="Block"><dir name="System"><dir name="Config"><file name="Version.php" hash="853253e944aa173a5f036eb150dcb844"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="68bdfff1318c346ec4b8073e650f6161"/><file name="Main.php" hash="556b2ea6f709f8bfe44921e4f4dc4202"/></dir><dir name="controllers"><dir name="Sales"><file name="OrderController.php" hash="23a5ea89eee3b970d66d8b04494e3a84"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="1c279d13b996c4d4ea4bd727ae79cb4d"/><file name="config.xml" hash="8a4a03273c4043f655a5f1feaf428ee4"/><file name="system.xml" hash="1f8333447c950198f67da7f3ebd5d151"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Plumrocket_GuestPrintOrder.xml" hash="5a79aab48afe970c45123edabb2ae4ac"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="guestprintorder"><dir name="checkout"><file name="success.phtml" hash="265da8a33fbcba882adc08d8000acd0a"/></dir></dir></dir><dir name="layout"><file name="guestprintorder.xml" hash="eb1888e63fc96c71be97c160e09c14f4"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Plumrocket_Base</name><channel>community</channel><min>1.0.3</min><max></max></package></required></dependencies>
 </package>

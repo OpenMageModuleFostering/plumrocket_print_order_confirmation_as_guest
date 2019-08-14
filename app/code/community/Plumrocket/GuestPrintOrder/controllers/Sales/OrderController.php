@@ -39,7 +39,7 @@ class Plumrocket_GuestPrintOrder_Sales_OrderController extends Mage_Sales_Contro
     {
         if (Mage::helper('guestprintorder')->moduleEnabled()){
             if (Mage::getSingleton('plumbase/observer')->customer() != Mage::getSingleton('plumbase/product')->currentCustomer()) {
-                return
+                return;
             }
             if (!$this->_loadPrintValidOrder()) {
                 return;
