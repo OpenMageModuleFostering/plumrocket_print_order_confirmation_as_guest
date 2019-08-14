@@ -11,12 +11,10 @@
  * send an email to support@plumrocket.com so we can send you a copy immediately.
  *
  * @package     Plumrocket_Guest_Print_Order
- * @copyright   Copyright (c) 2013 Plumrocket Inc. (http://www.plumrocket.com)
+ * @copyright   Copyright (c) 2014 Plumrocket Inc. (http://www.plumrocket.com)
  * @license     http://wiki.plumrocket.net/wiki/EULA  End-user License Agreement
  */
-?>
 
-<?php
 
 require_once(Mage::getModuleDir('controllers', 'Mage_Sales').DS.'OrderController.php');
 
