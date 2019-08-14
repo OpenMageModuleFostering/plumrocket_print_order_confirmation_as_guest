@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Plumrocket_Print_Order_Confirmation_As_Guest</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://wiki.plumrocket.net/wiki/EULA">End-user License Agreement</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The functionality of Print order confirmation receipt as guest allows your unregistered visitors to print orders on order confirmation page.</summary>
+    <description>The functionality of Print order confirmation receipt as guest allows your unregistered visitors to print orders on order confirmation page. It is a totally free, open source extension that was created to attract more visitors to your store, encourage purchases and increase customers&#x2019; loyalty. This magento print order plugin is a great way to open the door to your magento site for new customers.</description>
+    <notes>Allows your unregistered visitors to print orders on order confirmation page.</notes>
+    <authors><author><name>Plumrocket Team</name><user>plumrocket</user><email>support@plumrocket.com</email></author></authors>
+    <date>2014-07-09</date>
+    <time>12:36:07</time>
+    <contents><target name="magecommunity"><dir name="Plumrocket"><dir name="GuestPrintOrder"><dir name="Block"><dir name="System"><dir name="Config"><file name="Version.php" hash="bae0319c6c92a538fbe83b96a8dd1c3b"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="b097ca8090d4b50afe17a11cc53adc09"/></dir><dir name="controllers"><dir name="Sales"><file name="OrderController.php" hash="3a1e9bac702df8c097a00d9383bdf798"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="1c279d13b996c4d4ea4bd727ae79cb4d"/><file name="config.xml" hash="2d46ed915f0855dbed6fdb0b8e37a3fa"/><file name="system.xml" hash="1f8333447c950198f67da7f3ebd5d151"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Plumrocket_GuestPrintOrder.xml" hash="13cb6674f122a6b49d77552bf7632960"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="guestprintorder"><dir name="checkout"><file name="success.phtml" hash="265da8a33fbcba882adc08d8000acd0a"/></dir></dir></dir><dir name="layout"><file name="guestprintorder.xml" hash="eb1888e63fc96c71be97c160e09c14f4"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Plumrocket_Base</name><channel>community</channel><min></min><max></max></package></required></dependencies>
+</package>
