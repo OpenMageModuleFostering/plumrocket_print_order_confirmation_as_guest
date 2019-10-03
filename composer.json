@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Plumrocket_Print_Order_Confirmation_As_Guest",
+    "name": "OpenMageModuleFostering\/Plumrocket_Print_Order_Confirmation_As_Guest",
     "type": "magento-module",
     "license": "End-user-License-Agreement",
     "homepage": "",
     "description": "The functionality of Print order confirmation receipt as guest allows your unregistered visitors to print orders on order confirmation page.",
     "authors": [
-    {
-        "name": "Plumrocket Team",
-        "email": "support@plumrocket.com"
-    }
-],
+        {
+            "name": "Plumrocket Team",
+            "email": "support@plumrocket.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
